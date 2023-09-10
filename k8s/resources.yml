@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: multi-process
-        image: ghcr.io/yktakaha4/worker-testing:c5dc7c9dab9d1f53f4d423836b4bdd8fa3e78594
+        image: ghcr.io/yktakaha4/worker-testing:405a5f3e1886460440809e9d574ecd33a4810318
         command:
           - python
           - -m
@@ -59,7 +59,7 @@ spec:
     spec:
       containers:
       - name: multi-process
-        image: ghcr.io/yktakaha4/worker-testing:c5dc7c9dab9d1f53f4d423836b4bdd8fa3e78594
+        image: ghcr.io/yktakaha4/worker-testing:405a5f3e1886460440809e9d574ecd33a4810318
         command:
           - python
           - -m
