@@ -12,12 +12,14 @@ def cpu_bound(request):
     seconds = int(request.GET.get("seconds", 10))
 
     start_time = time.time()
+    count = 0
     while time.time() - start_time < seconds:
-        pass
+        count += 1
 
     return JsonResponse(
         {
             "seconds": seconds,
+            "count": count,
         }
     )
 
